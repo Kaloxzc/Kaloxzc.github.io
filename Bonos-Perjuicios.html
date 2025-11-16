@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaloozbot</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #0f2537;">
+
+    <div id="titulo">
+        <h1 class="text-center"><a href="index.html">Kaloozbot Wiki</a></h1>
+    </div>
+    <div class="navtab">
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pesca
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Brainrots.html">Pesca e Inventario</a></li>
+                <li><a class="dropdown-item" href="Bonos-Perjuicios.html">Bonos/Perjuicios</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Rareza
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Rareza.html">Peces</a></li>
+                <li><a class="dropdown-item" href="Huevos.html">Huevos</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tienda
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Tienda.html">Tienda</a></li>
+                <li><a class="dropdown-item" href="Gamba.html">Tienda</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mascotas
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Mascotas.html">Mascotas</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Eventos
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Eventos.html">Eventos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="subtitulo" class="text-center">
+            <h1>Bonos y Perjuicios</h1>
+        </div>
+        <div>
+            <p class="text-center mb-5">
+                Al pescar pueden ocurrir ciertos eventos unicos para ti, estos pueden ser beneficiosos como tambien
+                perjudiciales, no se rigen por rareza o por cantidad de puntos, unicamente funcionan por aleatoridad
+                aunque ciertas mascotas pueden llegar a afectar a algunos
+            </p>
+        </div>
+        <div class="rarecontainer">
+            <div class="card evento-card mb-4">
+                <div class="card-header">
+                    <h5 class="card-title ">Bonos</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-subtitle mb-2">⌛ ¡El tiempo se rebobino!</p>
+                    <p class="card-text">Este evento puede ocurrir aleatoriamente y permite pescar nuevamente sin
+                        necesidad de esperar los 5 minutos obligatorios de pesca</p>
+                    <p class="card-subtitle mb-2"> 🧲 ¡Iman De Brainrots!</p>
+                    <p class="card-text">Este evento tiene 2 maneras de aparecer, como un iman que garantizara un
+                        brainrot de una rareza buena (epico o superior), y como un SÚPER IMÁN DE BRAINROTS el cual
+                        garantizara una pesca de rareza legendaria o superior </p>
+                    <p class="card-subtitle mb-2"> 🏅 ¡Sello de Calidad!</p>
+                    <p class="card-text">Este evento otorga a tu pesca 1500 puntos extra </p>
+                    <p class="card-subtitle mb-2"> 📦 ¡Pesca de lucky!</p>
+                    <p class="card-text">Existe la probabilidad de pescar un Lucky de diferentes rarezas, para abrirlo
+                        con <code>!abrir [rareza]</code></p>
+                    <p class="card-subtitle mb-2"> ☢️ ¡Pesco un pez mutante!</p>
+                    <p class="card-text">Este evento puede ocurrir con cualquier pez, se duplicara los puntos que de el
+                        pescarlo</p>
+                    <p class="card-subtitle mb-2">🐸 ¡Pesca Doble!</p>
+                    <p class="card-text">Este evento solo ocurrira si tienes la mascota Ranita Ranota permitiendote
+                        obtener 2 pescas continuas sin cooldown de ningun tipo</p>
+                    <p class="card-subtitle mb-2"> 🌈 ¡Pesco un pez rainbow!</p>
+                    <p class="card-text">Este evento puede ocurrir con cualquier pez, se dara un multiplicador de x10 al
+                        pez</p>
+                </div>
+            </div>
+            <div class="card evento-card mb-4">
+                <div class="card-header">
+                    <h5 class="card-title">Perjuicios</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-subtitle mb-2">🦈 ¡Tralalero Tralala te robó la caña!</p>
+                    <p class="card-text">Este evento te restara 500 puntos wuajajaja</p>
+                    <p class="card-subtitle mb-2">⚡ ¡Entraste en estado Antimateria!</p>
+                    <p class="card-text">Este evento puede ser el mas peligroso de todos, puede ocurrir con cualquier
+                        tipo de pesca y convertira los puntos que ganarias en negativos, afecta tanto bonos de mutante,
+                        mascotas, eventos u otros, significando que puede ser una perdida catastrofica</p>
+                    <p class="card-subtitle mb-2">🐟 ¡Caiste al agua!</p>
+                    <p class="card-text">Este evento te restara 1000 puntos wuajajaja</p>
+                    <p class="card-subtitle mb-2">🔱 ¡Tu pesca enfurecio a Poseidon!</p>
+                    <p class="card-text">Este evento te restara 5000 puntos, ¡sufre su ira!</p>
+                    <p class="card-subtitle mb-2">🧜 ¡Una sirena te enamoro!</p>
+                    <p class="card-text">Este evento te restara 10000 puntos, ¡por cochino!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
