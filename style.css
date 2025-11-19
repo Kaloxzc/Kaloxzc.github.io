@@ -112,7 +112,11 @@ img{
     padding: 20px;
     background-color: #203b75;
 }
-
+.li-subtitule{
+    color: rgb(226, 153, 57);
+    font-style: italic;
+    font-size: 1.1rem;
+}
 .evento-card .card-subtitle {
     color: rgb(96, 180, 110);
     font-style: italic;
@@ -215,6 +219,7 @@ code{
     border: 1px solid #3a4a58; 
     white-space: normal;
     word-wrap: break-word;
+    color: rgb(0, 255, 221);
 }
 .shop-columns {
     display: flex;
@@ -254,4 +259,5 @@ code{
     .eventos-container {
         flex-direction: column; 
     }
+
 }
